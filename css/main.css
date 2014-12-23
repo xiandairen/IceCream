@@ -4,6 +4,8 @@ body{
     background:#ffffff url("../images/body-bg.png");
 }
 .top-main {
+    position: relative;
+    z-index: 20;
     height: auto;
     background: url("../images/top-bg.jpg") transparent;
 }
@@ -76,49 +78,48 @@ body{
     background-color: #1d424a;
 }
 
-
-
+#wrap{position: relative;z-index: 10;}
 .gelato-base{position:relative;}
 .gelato-base-top{height:57px;background: url(../images/block-tip-bg.png) repeat-x;}
 .gelato-base-main{position:relative;width: 1250px;height: 765px;margin:0 auto;}
 /*gelato之城*/
-.gelato-zc{background:#265 url(../images/gelato-main.png) 35px 51px no-repeat;}
+.gelato-zc{background:rgba(100,250,150,.1) url(../images/gelato-main.png) 35px 51px no-repeat;}
 .zc-main-txt{position: absolute;width: 290px;height: 140px;color: #597d01;top: 318px;left: 811px;line-height: 24px;}
 .zc-main-txt p{text-align:center;}
 .zc-main-txt a{text-decoration: none;margin-left: 153px;color: #597d01;}
 .zc-main-txt a:hover{text-decoration:underline;}
 /*gelato罗曼史*/
-.gelato-lms{background:#265 url(../images/gelato-lms.png) 63px 6px no-repeat;}
+.gelato-lms{background:rgba(100,250,150,.1) url(../images/gelato-lms.png) 63px 6px no-repeat;}
 .lms-main-txt{position: absolute;width: 222px;height: 140px;top: 334px;left: 556px;line-height: 24px;text-align: center;}
 .lms-main-txt p{text-align:center;color: #b3445a;}
 .lms-main-txt a{text-decoration: none;color: #b3445a;}
 .lms-main-txt a:hover{text-decoration: underline;}
 /*gelato动手做*/
-.gelato-dsz{background:#265 url(../images/gelato-dsz.png) 35px -61px  no-repeat;}
+.gelato-dsz{background:rgba(100,250,150,.1) url(../images/gelato-dsz.png) 35px -61px  no-repeat;}
 .dsz-main-txt{position: absolute;width: 201px;height: 140px;top: 381px;left: 775px;line-height: 24px;text-align: center}
 .dsz-main-txt p{text-align:center;color: #fffffe;}
 .dsz-main-txt a{text-decoration: none;color: #fffffe;}
 .dsz-main-txt a:hover{text-decoration: underline;}
 /*gelato家族*/
-.gelato-jz{background:#265 url(../images/gelato-jz.png) 19px -6px no-repeat;}
+.gelato-jz{background:rgba(100,250,150,.1) url(../images/gelato-jz.png) 19px -6px no-repeat;}
 .jz-main-txt{position: absolute;width: 167px;height: 140px;top: 278px;left: 363px;line-height: 24px;text-align: left;}
 .jz-main-txt p{text-align:center;color: #82582f;}
 .jz-main-txt a{margin-left:110px;text-decoration: none;color: #82582f;}
 .jz-main-txt a:hover{text-decoration: underline;}
 /*gelato好滋味*/
-.gelato-hzw{background:#265 url(../images/gelato-hzw.png) 34px -43px no-repeat;}
+.gelato-hzw{background:rgba(100,250,150,.1) url(../images/gelato-hzw.png) 34px -43px no-repeat;}
 .hzw-main-txt{position: absolute;width: 208px;height: 140px;top: 233px;left: 958px;line-height: 22px;text-align: left;}
 .hzw-main-txt p{text-align:left;color: #82582f;}
 .hzw-main-txt a{margin-left:110px;text-decoration: none;color: #82582f;margin-top: -10px}
 .hzw-main-txt a:hover{text-decoration: underline;}
 /*gelato罗马*/
-.gelato-lm{background:#265 url("../images/gelato-lm.png") -4px -5px no-repeat;}
+.gelato-lm{background:rgba(100,250,150,.1) url("../images/gelato-lm.png") -4px -5px no-repeat;}
 .lm-main-txt{position: absolute;width: 268px;height: 140px;top: 119px;left: 606px;line-height: 25px;text-align: left;}
 .lm-main-txt p{text-align:left;color: #672f00;}
 .lm-main-txt a{margin-left: 207px;text-decoration: none;color: #672f00;}
 .lm-main-txt a:hover{text-decoration: underline;}
 /*gelato如何点*/
-.gelato-rhd{background:#265 url("../images/gelato-rhd.png") 51px 14px no-repeat;}
+.gelato-rhd{background:rgba(100,250,150,.1) url("../images/gelato-rhd.png") 51px 14px no-repeat;}
 .rhd-main-txt{position: absolute;width: 290px;height: 140px;top: 224px;left: 826px;line-height: 23px;text-align: left;}
 .rhd-main-txt p{text-align:left;color: #1c8277;}
 .rhd-main-txt a{margin-left: 207px;text-decoration: none;color: #1c8277;}
