@@ -1,0 +1,72 @@
+.top-main {
+    height: auto;
+    background: url("../images/top-bg.jpg") transparent;
+}
+
+.top-cont {
+    margin: 0 auto;
+    width: 1288px;
+    height: 809px;
+    background: url("../images/top-bg-content.png") 35px 39px no-repeat;
+}
+
+.nav-list {
+    list-style: none;
+    position: relative;
+    top: 754px;
+    left: 86px;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: block;
+    width: 140px;
+    height: 49px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.nav-list li a span {
+    display: block;
+    border-radius: 100px;
+    width: 129px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0 0 6px;
+}
+
+.nav-list .nav-a{
+    margin-right: 8px;
+    border-radius: 100px;
+}
+.nav-list .nav-a a {
+    border: 1px dashed #56c1da;
+}
+
+.nav-list .nav-a span {
+    background-color: #56c1da;
+}
+
+.nav-list .nav-hover-a {
+    border: 1px dashed #4ba795;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+.nav-list .nav-hover-a span {
+    background-color: #4ba795;
+}
+
+.nav-list .nav-last a {
+    border: 1px dashed #56c1da;
+}
+
+.nav-list .nav-last span {
+    background-color: #1d424a;
+}
