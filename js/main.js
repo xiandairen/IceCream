@@ -45,22 +45,22 @@ $(document).ready(function(){
 				$topMain.addClass("top-main-pis");
 				switch ($i){
 					case 2:
-						$(window).scrollTop(800);
+						$(window).scrollTop(805);
 						break;
 					case 3:
-						$(window).scrollTop(1622);
+						$(window).scrollTop(1627);
 						break;
 					case 4:
-						$(window).scrollTop(2445);
+						$(window).scrollTop(2449);
 						break;
 					case 5:
-						$(window).scrollTop(3270);
+						$(window).scrollTop(3271);
 						break;
 					case 6:
-						$(window).scrollTop(4090);
+						$(window).scrollTop(4093);
 						break;
 					case 7:
-						$(window).scrollTop(4910);
+						$(window).scrollTop(4915);
 						break;
 				}
 			}

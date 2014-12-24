@@ -31,15 +31,15 @@ body{
 
 .top-cont {
     margin: 0 auto;
-    width: 1288px;
-    height: 809px;
-    background: url("../images/top-bg-content.png") 35px 39px no-repeat;
+    width: 1332px;
+    height: 807px;
+    background: url("../images/top-bg-content2.png") 35px 39px no-repeat;
 }
 
 .nav-list {
     list-style: none;
     position: relative;
-    top: 754px;
+    top: 752px;
     left: 86px;
 }
 
@@ -110,7 +110,7 @@ body{
 
 #wrap{position: relative;z-index: 10;overflow: hidden;}
 .gelato-base{position:relative;}
-.gelato-base-top{height:57px;background: url(../images/block-tip-bg.png) repeat-x;}
+.gelato-base-top{height:57px;background: url(../images/block-tip-bg2.png) repeat-x;}
 .gelato-base-main{position:relative;width: 1288px;height: 765px;margin:0 auto;}
 /*gelato之城*/
 .gelato-zc{background:url(../images/gelato-main.png) 35px 51px no-repeat;}
