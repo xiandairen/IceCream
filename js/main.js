@@ -63,7 +63,6 @@ $(document).ready(function(){
 						$(window).scrollTop(4870);
 						break;
 				}
-
 			}
 		}
 
