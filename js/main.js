@@ -45,35 +45,44 @@ $(document).ready(function(){
 				$topMain.addClass("top-main-pis");
 				switch ($i){
 					case 2:
-						$(window).scrollTop(760);
+						$(window).scrollTop(800);
 						break;
 					case 3:
-						$(window).scrollTop(1582);
+						$(window).scrollTop(1622);
 						break;
 					case 4:
-						$(window).scrollTop(2405);
+						$(window).scrollTop(2445);
 						break;
 					case 5:
-						$(window).scrollTop(3230);
+						$(window).scrollTop(3270);
 						break;
 					case 6:
-						$(window).scrollTop(4050);
+						$(window).scrollTop(4090);
 						break;
 					case 7:
-						$(window).scrollTop(4870);
+						$(window).scrollTop(4910);
 						break;
 				}
 			}
 		}
 
-		$(window).scroll(function(){
-			console.log($(window).scrollTop);
+		$(window).scroll(function() {
+			var $topVal= $(window).scrollTop();
+			console.log($topVal)
+			if($topVal>740 && $topVal<753 || $topVal>753){
+				$topMain.addClass("top-main-pis");
+				$("#goUp").show();
+			}else if($topVal == 0){
+				$topMain.removeClass("top-main-pis");
+				$("#goUp").hide();
+			}
 
-		})
+		});
 
 		//回到顶部
 		$("#goUp").click(function(){
-
+			$topMain.removeClass("top-main-pis");
+			$(window).scrollTop(0);
 
 		})
 		
